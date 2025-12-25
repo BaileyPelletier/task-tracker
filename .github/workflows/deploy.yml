@@ -20,4 +20,4 @@ jobs:
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           strip_components: 1
           source: "./dist/*"
-          target: "/home/baileyp1/test_git/task-tracker-dist-2/"
+          target: ${{ secrets.TARGET_DIRECTORY }}
