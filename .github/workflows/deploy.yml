@@ -18,5 +18,6 @@ jobs:
           username: ${{ secrets.USERNAME }}
           password: ${{ secrets.PASSWORD }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
-          source: "dist/index.html"
+          strip_components: 1
+          source: "./dist/*"
           target: "/home/baileyp1/test_git/task-tracker-dist-2/"
