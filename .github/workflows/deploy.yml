@@ -21,3 +21,4 @@ jobs:
           strip_components: 1
           source: "./dist/*"
           target: ${{ secrets.TARGET_DIRECTORY }}
+          rm: true
